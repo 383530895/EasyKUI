@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{2baef7f5-83f1-4fbd-86a3-0d3453b6954c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\bkres">
+      <UniqueIdentifier>{76f53066-ef60-4ed1-8f7e-fa9bce8622ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\bkwin">
+      <UniqueIdentifier>{3bc3ddce-e7db-4981-ace4-28f3f7de8838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\tinyxml">
+      <UniqueIdentifier>{9b580df3-225a-46cb-b28d-3fcab47f1eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\wtl">
+      <UniqueIdentifier>{3f1cbb72-70c9-413e-b611-d294e0da66ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import\wtlhelper">
+      <UniqueIdentifier>{d2c7cb8b-c499-4c2a-b046-2cf988c33870}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\EasyKUI\bkres\bkbmppool.h">
+      <Filter>import\bkres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkres\bkfontpool.h">
+      <Filter>import\bkres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkres\bkpngpool.h">
+      <Filter>import\bkres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkres\bkresutil.h">
+      <Filter>import\bkres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkres\bkstringpool.h">
+      <Filter>import\bkres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkatldefine.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkcolor.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkdlgview.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkimage.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bklistbox.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bklistview.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkobject.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkskin.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bktheme.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnd.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndcmnctrl.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnddlg.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnddlgfile.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndnotify.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndpanel.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndrichtxt.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndstyle.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndtabctrl.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\bkwin\listboxbase.h">
+      <Filter>import\bkwin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlcrack.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlctrls.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlctrlw.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlctrlx.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlddx.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atldlgs.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atldwm.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlfind.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlframe.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlgdi.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlmisc.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlprint.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlres.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlresce.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlribbon.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlscrl.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlsplit.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atltheme.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atluser.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlwince.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlwinx.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\Schemadef.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\Tmschema.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\tinyxml\tinystr.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\tinyxml\tinyxml.h">
+      <Filter>import\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtl\atlapp.h">
+      <Filter>import\wtl</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EasyKUI\wtlhelper\whwindow.h">
+      <Filter>import\wtlhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="bkwinres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\EasyKUI\tinyxml\tinystr.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxml.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxmlerror.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxmlparser.cpp">
+      <Filter>import\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyKUIDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bkwinres.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EasyKUIDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\EasyKUI\bkres\bkres.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

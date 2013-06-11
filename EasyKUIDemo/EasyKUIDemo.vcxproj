@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\EasyKUI\bkres\bkbmppool.h" />
+    <ClInclude Include="..\EasyKUI\bkres\bkfontpool.h" />
+    <ClInclude Include="..\EasyKUI\bkres\bkpngpool.h" />
+    <ClInclude Include="..\EasyKUI\bkres\bkresutil.h" />
+    <ClInclude Include="..\EasyKUI\bkres\bkstringpool.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkatldefine.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkcolor.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkdlgview.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkimage.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bklistbox.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bklistview.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkobject.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkskin.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bktheme.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnd.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndcmnctrl.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnddlg.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwnddlgfile.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndnotify.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndpanel.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndrichtxt.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndstyle.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\bkwndtabctrl.h" />
+    <ClInclude Include="..\EasyKUI\bkwin\listboxbase.h" />
+    <ClInclude Include="..\EasyKUI\tinyxml\tinystr.h" />
+    <ClInclude Include="..\EasyKUI\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\EasyKUI\wtlhelper\whwindow.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlapp.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlcrack.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlctrls.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlctrlw.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlctrlx.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlddx.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atldlgs.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atldwm.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlfind.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlframe.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlgdi.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlmisc.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlprint.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlres.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlresce.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlribbon.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlscrl.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlsplit.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atltheme.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atluser.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlwince.h" />
+    <ClInclude Include="..\EasyKUI\wtl\atlwinx.h" />
+    <ClInclude Include="..\EasyKUI\wtl\Schemadef.h" />
+    <ClInclude Include="..\EasyKUI\wtl\Tmschema.h" />
+    <ClInclude Include="bkwinres.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="res.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\EasyKUI\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\EasyKUI\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="EasyKUIDemo.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bkwinres.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\EasyKUI\bkres\bkres.rc" />
+    <ResourceCompile Include="EasyKUIDemo.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{614A39CE-5F7E-45FC-9618-3A4FF375B682}</ProjectGuid>
+    <RootNamespace>EasyKUIDemo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\EasyKUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
